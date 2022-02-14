@@ -79,14 +79,9 @@
                 opration.value = '';
             }
 
-            // onMounted(() => window.addEventListener("keydown", handleEvent));
-            //
-            // onUnmounted(() => window.removeEventListener("keydown",handleEvent));
             const handleEvent = (e) => pressed(e.key);
 
             useWindowEvent('keydown',handleEvent);
-
-
 
             var addition = () => currentNum.value = +prevNum.value + +currentNum.value;
 
