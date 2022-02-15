@@ -26,7 +26,8 @@ export default {
                 { title: "Markdown", to: "/markdown" },
                 { title: "Slider Carousel", to: "/slider" },
                 { title: "Calculator", to: "/calculator" },
-                { title: "Reusable Model", to: "/reusable-model" }
+                { title: "Reusable Model", to: "/reusable-model" },
+                { title: "User-List", to: "/users-list" }
             ],
         }
     },

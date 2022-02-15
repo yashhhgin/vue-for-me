@@ -6,6 +6,7 @@ import Markdown from "./pages/Markdown";
 import Slider from "./pages/Slider";
 import Calculator from "./pages/Calculation";
 import ReusableModel from "./pages/ReusableModel";
+import UserList from "./pages/UserCrud";
 
 const routes = [
   { path: "/", component: Home },
@@ -14,7 +15,8 @@ const routes = [
   { path: "/markdown", component: Markdown },
   { path: "/slider", component: Slider },
   { path: "/calculator", component: Calculator },
-  { path: "/reusable-model", component: ReusableModel }
+  { path: "/reusable-model", component: ReusableModel },
+  { path: "/users-list", component: UserList }
 ];
 
 const router = createRouter({
